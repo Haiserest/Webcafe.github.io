@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="menu.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+</head>
+<body>
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-coffee'></i>
+                <div class="logo_name"> Cafe </div>
+            </div>
+            <i class='bx bx-menu' id="btn_menu"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                    <i class='bx bx-search' ></i>
+                    <input type="text" placeholder="search">
+            </li>
+            <br/>
+            <li>
+                <a href="../../index.html">
+                    <i class='bx bxs-home' ></i>
+                    <span class="links_name"> Home </span>
+                </a>
+                <span class="tooltip"> Home </span>
+            </li>
+            <li>
+                <a href="../member/member.html">
+                    <i class='bx bx-user' ></i>
+                    <span class="links_name"> Member </span>
+                </a>
+                <span class="tooltip"> Member </span>
+            </li>
+            <li>
+                <a href="../aboutme/aboutme.html">
+                    <i class='bx bx-ghost' ></i>
+                    <span class="links_name"> About me </span>
+                </a>
+                <span class="tooltip"> About me </span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="frame_content">
+        <div class="head_content"> Menu </div>
+        <div class="content">
+            <i class='bx bxs-coffee-togo'></i>
+            Virtual Coffe shop online  
+            <div class="grid_menu">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="../image/green_tea.jpg" alt="greentea" width="150" height="110">
+                        </td>
+                        <td>
+                            <label class="cafe">GreenTea</label>
+                        </td>
+                        <td>
+                            <button id="Greentea" name="green_tea" value="green_tea">0.011 eth</button>
+                        </td>
+                        <td>
+                            <img src="../image/rice_with_pork.jpg" alt="katsudon" width="150" height="110">
+                        </td>
+                        <td>
+                            <label class="cafe">Katsudon</label>
+                        </td>
+                        <td>
+                            <button id="Katsudon" name="Katsudon" value="Katsudon">0.025 eth</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="../image/purple_tea.jpg" alt="purpletea" width="150" height="110">
+                        </td>
+                        <td>
+                            <label class="cafe">PurpleTea</label>
+                        </td>
+                        <td>
+                            <button id="Purpletea" name="Purple Tea" value="Purple Tea">0.014 eth</button>
+                        </td>
+                        <td>
+                            <img src="../image/spahgettie.jpg" alt="spaghetti" width="150" height="110">
+                        </td>
+                        <td>
+                            <label class="cafe">Spaghetti</label>
+                        </td>
+                        <td>
+                            <button id="Spaghetti" name="Spaghetti" value="Spaghetti">0.03 eth</td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="../image/mucha.jpg" alt="mucha" width="150" height="110">
+                        </td>
+                        <td>
+                            <label class="cafe">Mucha</label>
+                        </td>
+                        <td>
+                            <button id="Mucha" name="Mucha" value="Mucha">0.015 eth</button>
+                        </td>
+                    </tr>
+                    </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="menu.js">
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="index.css">
+    <!-- Box icon -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Blockchain</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-coffee'></i>
+                <div class="logo_name"> Cafe </div>
+            </div>
+            <i class='bx bx-menu' id="btn_menu"></i>
+        </div>
+        <ul class="nav_list">
+            <li>
+                    <i class='bx bx-search' ></i>
+                    <input type="text" placeholder="search">
+            </li>
+            <br/>
+            <li>
+                <a href="src/menu/menu.html">
+                    <i class='bx bx-food-menu' ></i>
+                    <span class="links_name"> MENU </span>
+                </a>
+                <span class="tooltip"> MENU </span>
+            </li>
+            <li>
+                <a href="src/member/member.html">
+                    <i class='bx bx-user' ></i>
+                    <span class="links_name"> Member </span>
+                </a>
+                <span class="tooltip"> Member </span>
+            </li>
+            <li>
+                <a href="src/aboutme/aboutme.html">
+                    <i class='bx bx-ghost' ></i>
+                    <span class="links_name"> About me </span>
+                </a>
+                <span class="tooltip"> About me </span>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="frame_content">
+        <div class="head_content">Home </div>
+        <div class="content">
+            <div class="welcome">Welcome!!!</div>
+            <i class='bx bxs-coffee-togo'></i>
+            Virtual Coffe shop online  
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="descript">
+            <h1>Picture</h1>
+            <p>Camera: Lumix GF9</p>
+            <p>Len: Yongnuo 42.5 mm f1.7 & Lumix 25 mm f1.4</p>    
+            <p>Location: Little Hut Cafe & Yimwaan Cafe</p>
+        </div>
+        
+        <div class="slideshow middle">
+    
+            <div class="slides">
+                <input type="radio" name="radioInput" id="r1" checked>
+                <input type="radio" name="radioInput" id="r2">
+                <input type="radio" name="radioInput" id="r3">
+                <div class="slide img1">
+                    <img src="./src/image/green_tea.jpg">
+                </div>
+                <div class="slide img2">
+                    <img src="./src/image/mucha.jpg">
+                </div>
+                <div class="slide img3">
+                    <img src="./src/image/purple_tea.jpg">
+                </div>
+            </div>
+    
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+            </div>
+    
+        </div>
+    </div>
+    
+    
+    <script src="index.js">
+    </script>
+</body>
+
+</html>
